@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public</title>
+    <style>
+        *{
+            margin: 0% 0%;
+            font-family: 'Titillium Web', sans-serif;
+        }
+        .main{
+            width: 50%;
+            height: 500px;
+            /* background-color: cadetblue; */
+            margin: 10% 0% 0% 24%;
+        }
+        .path{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            margin: 0% 0% 0% 2%;
+        }
+        .path a{
+            text-decoration: none;
+            color: black;
+            margin-top: 1%;
+        }
+        .sub-main{
+            width: 100%;
+            height: 130px;
+            /* background-color: black; */
+            display: flex;
+        }
+        .box{
+            width: 20%;
+            height: 100%;
+            /* background-color: gray; */
+        }
+        .link{
+            width: 70%;
+            height: 90%;
+            text-decoration: none;
+            color: black;
+        }
+        .folder-image{
+            width: 60%;
+            height: 60%;
+            margin: 10% 0% 0% 20%;
+        }
+        .link p{
+            margin-left: 33%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="path"><a href="http://localhost:8080/public/"><h2>~ / public</h2></a></div>
+        <div class="sub-main">
+            <div class="box"><a href="http://localhost:8080/public/folder1" class="link"><img src="http://localhost:8080/public/folder" alt="" class="folder-image"><p>Folder1</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/folder2" class="link"><img src="http://localhost:8080/public/folder" alt="" class="folder-image"><p>Folder2</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/app.js" class="link"><img src="http://localhost:8080/public/javascript" alt="" class="folder-image"><p>app.js</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/index.html" class="link"><img src="http://localhost:8080/public/html" alt="" class="folder-image"><p>index.html</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/presentation.pptx" class="link"><img src="http://localhost:8080/public/pptx" alt="" class="folder-image"><p>presentation</p></a></div>
+        </div>
+        <div class="sub-main">
+            <div class="box"><a href="http://localhost:8080/public/public.zip" class="link"><img src="http://localhost:8080/public/zipfolder" alt="" class="folder-image"><p>public.zip</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/readme.txt" class="link"><img src="http://localhost:8080/public/txt" alt="" class="folder-image"><p>readme</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/student.csv" class="link"><img src="http://localhost:8080/public/csv" alt="" class="folder-image"><p>student</p></a></div>
+        </div>
+    </div>
+    <!-- <a href="http://localhost:8080/public/folder1/"><h1>Folder1 HTML</h1></a>
+    <a href="http://localhost:8080/public/folder2/"><h1>Folder2 HTML</h1></a> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

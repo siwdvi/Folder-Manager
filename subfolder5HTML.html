@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubFolder-5</title>
+    <style>
+        *{
+            margin: 0% 0%;
+            font-family: 'Titillium Web', sans-serif;
+        }
+        .main{
+            width: 50%;
+            height: 500px;
+            /* background-color: cadetblue; */
+            margin: 10% 0% 0% 24%;
+        }
+        .path{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            margin: 0% 0% 0% 2%;
+        }
+        .path a{
+            text-decoration: none;
+            color: black;
+            margin-top: 1%;
+        }
+        .sub-main{
+            width: 100%;
+            height: 130px;
+            /* background-color: black; */
+            display: flex;
+        }
+        .box{
+            width: 20%;
+            height: 100%;
+            /* background-color: gray; */
+        }
+        .link{
+            width: 70%;
+            height: 90%;
+            text-decoration: none;
+            color: black;
+        }
+        .folder-image{
+            width: 60%;
+            height: 60%;
+            margin: 10% 0% 0% 20%;
+        }
+        .link p{
+            margin-left: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="path">
+            
+            <a href="http://localhost:8080/public"><h2>~ / public </h2></a>
+            <a href="http://localhost:8080/public/folder2"><h2> / folder2 </h2></a>
+            <a href="http://localhost:8080/public/folder2/subfolder5"><h2> / subfolder5 </h2></a>
+    
+        </div>
+        <div class="sub-main">
+            <div class="box"><a href="http://localhost:8080/public/folder2" class="link"><img src="http://localhost:8080/public/folder" alt="" class="folder-image"><p>....</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/folder2/subfolder5/app.js" class="link"><img src="http://localhost:8080/public/javascript" alt="" class="folder-image"><p>app</p></a></div>
+            <div class="box"><a href="http://localhost:8080/public/folder2/subfolder5/student.csv" class="link"><img src="http://localhost:8080/public/csv" alt="" class="folder-image"><p>student</p></a></div>
+        </div>
+    </div>
+</body>
+</html>
